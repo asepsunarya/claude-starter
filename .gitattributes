@@ -1,0 +1,3 @@
+# Normalisasi line ending di repo; skrip bash harus tetap LF agar jalan di Git Bash / Linux
+* text=auto
+*.sh text eol=lf

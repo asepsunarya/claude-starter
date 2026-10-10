@@ -1,0 +1,21 @@
+# Secrets and environment
+.env
+.env.*
+!.env.example
+
+# Dependencies and build output
+node_modules/
+dist/
+build/
+.next/
+coverage/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.log
+
+# Claude Code: per-user settings and hook caches
+.claude/settings.local.json
+.claude/sdd-cache/
+.claude/.simplify-ignore-cache/

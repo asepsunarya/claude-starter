@@ -1,0 +1,14 @@
+# Staging folder skrip update (dihapus otomatis; hanya tersisa kalau skrip crash)
+.claude.new-*/
+
+# File runtime Claude Code, baik di root repo ini maupun di dalam template
+.claude/settings.local.json
+.claude/sdd-cache/
+.claude/.simplify-ignore-cache/
+template/.claude/settings.local.json
+template/.claude/sdd-cache/
+template/.claude/.simplify-ignore-cache/
+
+# OS noise
+.DS_Store
+Thumbs.db
